@@ -1,0 +1,55 @@
+body {
+    font-family: "黑体";
+    padding: 20px;
+}
+div.container {
+    background-color: #eee;
+    padding: 20px;
+    border: #999 1px solid;
+    /*height: 600px;*/
+    overflow: auto;
+}
+div div {
+    border: #999 1px solid;
+    padding: 20px;
+    background-color: #fff;
+}
+
+/*logo栏*/
+div.logo {
+    width: 160px;
+    /*height: 80px;*/
+    float: left;
+}
+img.logo {
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+div.logo p {
+    /*float: right;*/
+    text-align: center;
+    margin-right: -20px;
+}
+/*图片栏*/
+div.pics {
+    width: 80px;
+    float: right;
+}
+div.pics img {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 0;
+    /*border: 1px solid;*/
+    margin: 10px 0;
+}
+/*正文栏*/
+div.article {
+    margin-left: 220px;
+    margin-right: 140px;
+    padding: 20px;
+}
+.article p {
+    margin: 12px 0;
+}

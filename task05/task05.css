@@ -1,0 +1,170 @@
+body {
+    background-color: #dedede;
+    font-family: "黑体";
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    min-width: 800px;
+    min-height: 600px;
+}
+
+/*标题logo和导航栏*/
+div.header {
+    background-color: #333;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 10px;
+    height: 80px;
+}
+div.header h1 {
+    float:left;
+    margin: auto 20px;
+}
+
+nav {
+    float:right;
+    margin: 20px auto;
+}
+
+nav li {
+    float: left;
+    margin-right: 2em;
+    text-decoration: none;
+    font-size: smaller;
+}
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*正文*/
+div.content {
+    background-color: #fff;
+    /*width: 65%;*/
+    margin: 20px auto;
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 386px;
+    padding: 20px;
+    border: 1px #aaa solid;
+    box-shadow: 2px 2px 2px #888;
+}
+h3,
+p.author {
+    color: #646464;
+}
+h3 {
+    font-size: normal;
+}
+p.author {
+    font-size: smaller;
+}
+p.article-content {
+    text-indent: 2em;
+}
+ul.nomarker li {
+    list-style-type: none;
+    margin: 0.5em 0;
+}
+
+/*图片框*/
+div.pic {
+    /*width: auto;*/
+    border: 1px solid #ccc;
+    margin: 0 20px 20px 0;
+    padding: 20px;
+    display: inline-block;
+}
+div.pic span,
+div.pic img {
+    display: block;
+    /*margin: 0 auto;*/
+    text-align: center;
+}
+
+/*表*/
+table {
+    table-layout: fixed;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin: 1em auto;
+    border-collapse: collapse;
+    font-size: smaller;
+}
+th {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+}
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 0.3em;
+}
+th#r1c1,
+th#r1c2 {
+    width: 40%;
+}
+#r6 {
+    background-color: #ccc;
+    font-weight: bold;
+}
+
+/*侧栏*/
+div.sidebar {
+    font-size: 12px;
+    position: fixed;
+    top: 100px;
+    right: 0px;
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border: 1px #aaa solid;
+    width: 300px;
+    box-shadow: 2px 2px 2px #888;
+}
+div.sidebar h2 {
+    border-left: #ccc 3px solid;
+    padding-left: 1em;
+}
+form div {
+    margin: 10px 0;
+}
+label.tips {
+    float: left;
+    text-align: right;
+    width: 30%;
+    padding-right: 10px;
+}
+form div p {
+    margin-left: 30%;
+    padding-left: 10px;
+    color: #999;
+}
+textarea {
+    width: 50%;
+    height: 60px;
+}
+.submitButton {
+    width: 100%;
+    height: 40px;
+    background-color: #3355d0;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+.submitButton:hover {
+    background-color: #3296fa;
+}
+/*页脚*/
+div.footer {
+    color: white;
+    text-align: center;
+    font-size: small;
+    background-color: black;
+    margin: 0;
+    margin-top: 20px;
+    /*height: 20px;*/
+    padding: 1em;
+    border: none;
+}
