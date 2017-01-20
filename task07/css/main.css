@@ -1,0 +1,385 @@
+@charset "UTF-8";
+#page-wrapper {
+  min-width: 1280px;
+  /*display: flex;*/ }
+
+header {
+  height: 57px;
+  width: 100%;
+  position: relative; }
+  header nav {
+    height: 100%; }
+    header nav img {
+      margin-left: 59px;
+      margin-top: 13px; }
+    header nav span {
+      display: inline-block;
+      position: absolute;
+      top: 16px;
+      left: 100px;
+      font-size: 21px;
+      font-family: "黑体"; }
+    header nav ul {
+      list-style: none;
+      float: right;
+      display: inline-block;
+      height: 100%;
+      margin-right: 40px; }
+      header nav ul li {
+        display: inline-block;
+        padding: 15px 20px; }
+        header nav ul li a {
+          color: #767777;
+          text-decoration: none; }
+      header nav ul li:last-child a {
+        color: #e74f4d; }
+  header > img {
+    position: absolute;
+    top: 19px;
+    right: 100px; }
+
+section:nth-of-type(1) {
+  width: 100%;
+  height: 690px;
+  background-image: url("../images/pic1.png");
+  background-size: 100% 100%;
+  color: #fff;
+  position: relative; }
+  section:nth-of-type(1) h1 {
+    font-size: 60px;
+    position: absolute;
+    left: 116px;
+    top: 230px; }
+  section:nth-of-type(1) p {
+    font-size: 21px;
+    width: 294px;
+    position: absolute;
+    left: 124px;
+    top: 310px; }
+  section:nth-of-type(1) #btn1 {
+    width: 331px;
+    height: 65px;
+    background-color: #e74f4d;
+    font-size: 30px;
+    position: absolute;
+    left: 126px;
+    top: 429px; }
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; }
+
+section:nth-of-type(2) {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: space-between; }
+  section:nth-of-type(2) div {
+    display: inline-block;
+    width: 100%;
+    color: #767777;
+    /*@include testborder;*/
+    /*display: flex;*/ }
+    section:nth-of-type(2) div img {
+      display: block;
+      margin-top: 45px;
+      margin-left: auto;
+      margin-right: auto; }
+    section:nth-of-type(2) div p {
+      width: 176px;
+      text-align: center;
+      margin-top: 46px;
+      margin-left: auto;
+      margin-right: auto; }
+
+section:nth-of-type(3) {
+  width: 100%;
+  height: 361px;
+  background-color: #ededec;
+  padding-top: 89px; }
+  section:nth-of-type(3) img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  section:nth-of-type(3) p {
+    color: #323333;
+    font-size: 54px;
+    font-family: "黑体";
+    text-align: center;
+    margin-top: 48px; }
+
+section:nth-of-type(4) {
+  width: 100%;
+  height: 341px;
+  position: relative;
+  background-image: url("../images/pic4.png");
+  background-size: 100% 100%;
+  color: #fff;
+  padding-top: 53px; }
+  section:nth-of-type(4) h2 {
+    text-align: center;
+    font-size: 21px; }
+  section:nth-of-type(4) p {
+    text-align: center;
+    margin-top: 19px; }
+  section:nth-of-type(4) div#query-bar {
+    margin-top: 52px;
+    width: 1030px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+    section:nth-of-type(4) div#query-bar select,
+    section:nth-of-type(4) div#query-bar button {
+      width: 236px;
+      height: 36px; }
+    section:nth-of-type(4) div#query-bar select {
+      margin-right: 20px; }
+    section:nth-of-type(4) div#query-bar button {
+      background-color: #e74f4d;
+      color: #fff;
+      border: 0;
+      letter-spacing: 25px;
+      text-align: center; }
+  section:nth-of-type(4) span {
+    width: 31px;
+    border-top: 3px #fff solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px; }
+
+section:nth-of-type(5) {
+  width: 100%;
+  height: 605px;
+  background-color: #f7f7f7;
+  padding-top: 101px; }
+  section:nth-of-type(5) > div {
+    width: 1009px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+    section:nth-of-type(5) > div div.pic-container {
+      display: inline-block; }
+      section:nth-of-type(5) > div div.pic-container h3 {
+        font-weight: normal;
+        text-align: center; }
+      section:nth-of-type(5) > div div.pic-container p {
+        color: #9f9f9f;
+        text-align: center; }
+      section:nth-of-type(5) > div div.pic-container img {
+        border: 1px solid #e1e1e1; }
+    section:nth-of-type(5) > div div.pic-container:nth-of-type(-n+3) {
+      margin-right: 36px; }
+
+section:nth-of-type(6) {
+  display: flex;
+  width: 100%;
+  height: 567px; }
+  section:nth-of-type(6) div:nth-of-type(1) {
+    flex: 2;
+    color: #fff;
+    background-image: url("../images/pic6-1.png");
+    background-size: 100% 100%;
+    position: relative; }
+    section:nth-of-type(6) div:nth-of-type(1) p {
+      text-align: center; }
+    section:nth-of-type(6) div:nth-of-type(1) p:nth-of-type(1) {
+      font-size: 49px;
+      margin-top: 131px; }
+    section:nth-of-type(6) div:nth-of-type(1) p:nth-of-type(2) {
+      font-size: 158px;
+      margin-top: 11px;
+      padding: 0;
+      line-height: 126px; }
+    section:nth-of-type(6) div:nth-of-type(1) p:nth-of-type(3) {
+      font-size: 22px;
+      margin-top: 39px; }
+    section:nth-of-type(6) div:nth-of-type(1) img {
+      position: absolute;
+      top: 267px;
+      right: -1px; }
+  section:nth-of-type(6) div:nth-of-type(2) {
+    flex: 1; }
+
+section:nth-of-type(7) {
+  width: 100%;
+  height: 520px;
+  display: flex; }
+  section:nth-of-type(7) > div {
+    flex: 1;
+    font-size: 21px;
+    text-align: center;
+    padding-top: 173px; }
+    section:nth-of-type(7) > div span {
+      display: block;
+      width: 31px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      border-top: 2px solid #fff; }
+    section:nth-of-type(7) > div button {
+      width: 170px;
+      height: 44px;
+      border: 0;
+      cursor: pointer;
+      font-size: 21px; }
+  section:nth-of-type(7) div:nth-of-type(1) {
+    background-color: #e74f4d;
+    color: #fff; }
+    section:nth-of-type(7) div:nth-of-type(1) button {
+      border: #fff 1px solid;
+      background-color: #e74f4d;
+      color: #fff; }
+  section:nth-of-type(7) div:nth-of-type(2) span {
+    border-color: #000; }
+  section:nth-of-type(7) div:nth-of-type(2) button {
+    border: #e74f4d 1px solid;
+    background-color: #fff;
+    color: #e74f4d; }
+  section:nth-of-type(7) div:nth-of-type(3) {
+    background-image: url("../images/pic7-1.png");
+    background-size: 100% 100%;
+    position: relative; }
+    section:nth-of-type(7) div:nth-of-type(3) img {
+      position: absolute;
+      top: 245px;
+      left: -1px; }
+
+section:nth-of-type(8) {
+  width: 100%;
+  height: 749px; }
+  section:nth-of-type(8) > div:nth-of-type(1) {
+    text-align: center;
+    margin-bottom: 111px; }
+    section:nth-of-type(8) > div:nth-of-type(1) h2 {
+      font-size: 21px;
+      font-family: "黑体";
+      margin-top: 118px;
+      font-weight: normal; }
+    section:nth-of-type(8) > div:nth-of-type(1) span {
+      display: block;
+      width: 31px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-top: 2px solid #e74f4d;
+      margin-top: 10px; }
+    section:nth-of-type(8) > div:nth-of-type(1) p {
+      font-size: 12px;
+      margin-top: 14px;
+      color: #aaa; }
+  section:nth-of-type(8) > div:nth-of-type(2) {
+    width: 289px;
+    margin-left: 138px; }
+    section:nth-of-type(8) > div:nth-of-type(2) div {
+      margin-bottom: 39px; }
+      section:nth-of-type(8) > div:nth-of-type(2) div h3 {
+        font-size: 14px;
+        font-weight: normal;
+        font-family: "黑体";
+        margin-bottom: 27px; }
+      section:nth-of-type(8) > div:nth-of-type(2) div p {
+        font-size: 12px;
+        font-family: "宋体";
+        color: #a5a3a2; }
+      section:nth-of-type(8) > div:nth-of-type(2) div p:last-child {
+        text-align: right; }
+        section:nth-of-type(8) > div:nth-of-type(2) div p:last-child a {
+          color: #a5a3a2;
+          text-decoration: none; }
+  section:nth-of-type(8) form {
+    width: 639px;
+    float: right;
+    margin-right: 139px; }
+    section:nth-of-type(8) form input,
+    section:nth-of-type(8) form textarea,
+    section:nth-of-type(8) form button {
+      background-color: #ededee;
+      border: 0;
+      margin-bottom: 13px;
+      font-size: 12px; }
+    section:nth-of-type(8) form input {
+      width: 311px;
+      height: 41px;
+      padding-left: 16px; }
+    section:nth-of-type(8) form input:nth-of-type(even) {
+      margin-left: 10px; }
+    section:nth-of-type(8) form textarea {
+      width: 639px;
+      height: 121px;
+      padding: 16px;
+      resize: none; }
+    section:nth-of-type(8) form button {
+      width: 639px;
+      height: 41px;
+      font-family: "黑体";
+      cursor: pointer;
+      font-size: 14px; }
+
+section:nth-of-type(9) {
+  width: 100%;
+  height: 361px;
+  background-color: #32353e;
+  color: #fff;
+  text-align: center;
+  padding-top: 92px; }
+  section:nth-of-type(9) h2 {
+    font-weight: normal;
+    font-size: 21px;
+    font-family: "黑体"; }
+  section:nth-of-type(9) p {
+    margin-top: 12px;
+    font-size: 12px;
+    margin-bottom: 31px;
+    font-family: "宋体"; }
+  section:nth-of-type(9) form {
+    width: 520px;
+    height: 41px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+    section:nth-of-type(9) form input,
+    section:nth-of-type(9) form button {
+      display: inline-block;
+      border-width: 0; }
+    section:nth-of-type(9) form input {
+      width: 430px;
+      height: 100%;
+      padding-left: 10px; }
+    section:nth-of-type(9) form button {
+      width: 81px;
+      height: 100%;
+      color: #fff;
+      font-size: 15px;
+      font-family: "微软雅黑";
+      background-color: #6f7178;
+      cursor: pointer;
+      margin-left: -4px; }
+  section:nth-of-type(9) div {
+    margin-top: 37px; }
+    section:nth-of-type(9) div a:nth-of-type(-n+2) {
+      margin-right: 27px; }
+    section:nth-of-type(9) div a:nth-of-type(3) {
+      margin-right: 20px; }
+
+footer {
+  width: 100%;
+  height: 56px;
+  background-color: #303039;
+  position: relative; }
+  footer span,
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    font-family: "宋体"; }
+  footer span {
+    left: 100px;
+    bottom: 16px; }
+  footer a {
+    right: 41px;
+    bottom: 16px; }
